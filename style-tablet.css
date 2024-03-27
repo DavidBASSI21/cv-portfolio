@@ -1,0 +1,115 @@
+@media (max-width: 992px) {
+    .navbar .navbar-link {
+      display: none;
+    }
+  
+    .navbar {
+      height: 90px;
+      align-items: center;
+      justify-content: space-between;
+      align-content: center;
+    }
+  
+    .navbar .toggle_btn {
+      display: block;
+      font-size: 4em;
+    }
+  
+    .navbar .bi-moon {
+      font-size: 2.5em;
+    }
+  
+    .dropdown_menu {
+      display: block;
+      width: 50%;
+    }
+  
+    .drowndown_menu .navbar-link {
+      font-size: 1.8;
+    }
+  
+    .navbar-home {
+      margin-left: 1.5rem;
+      font-size: 1.8em;
+      padding-left: 0em;
+    }
+  
+    .change-theme {
+      margin-right: 0;
+    }
+    
+    .header_presentation_text {
+      color: #fff;
+      background-color: transparent;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 0;
+      width: fit-content
+    }
+  
+    .hard_skills,
+    .soft_skills,
+    .language_skills {
+      margin-bottom: 15px;
+      align-content: center;
+    }
+    .section_about_title_container {
+      flex-direction: column;
+    }
+    .section_about_picture {
+      width: 30%;
+      margin-bottom: 30px;
+    }
+    .section_paragraph {
+      width: 90%;
+    }
+  
+    #skills p {
+      margin: 30px 10% 0 10%;
+      font-size: 1.5em;
+      text-align: justify;
+  
+    }
+  
+    .skills_container {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 100%;
+    }
+  
+    .card {
+      width: 45%;
+      margin-bottom: 60px;
+      height: auto;
+    }
+  
+    .skills_li {
+      font-size: 1.1em;
+      line-height: 1.8em;
+    }
+  
+    h2.section_title {
+      font-size: 2.5rem;
+      padding-bottom: 2em;
+      margin-bottom: 0;
+    }
+    p {
+      font-size: 2em; 
+      line-height: 2.5em; 
+    }
+  
+    h1 {
+      font-size: 3.5em; 
+      text-align: center;
+    }
+    p.footer_p{
+      font-size: 16px;
+    }
+  
+    .socialNetworks_icon{
+      font-size: 2.75em;
+    }
+  }
