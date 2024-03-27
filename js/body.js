@@ -3,7 +3,7 @@ init: function() {
     const waveHand = document.querySelector('#wave_hand')
     console.log(waveHand);
 
-    window.addEventListener("scroll", body.handleSectionAboutDisplay);
+        window.addEventListener("scroll", body.handleSectionAboutDisplay);   
 },
 
 handleSectionAboutDisplay: function() {

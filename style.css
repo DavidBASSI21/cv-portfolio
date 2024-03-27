@@ -229,7 +229,7 @@ nav {
 }
 
 .dropdown_menu.open {
-  height: 240px;
+  height: 185px;
 }
 
 nav > i {
@@ -607,6 +607,10 @@ section#about {
 
 .col-md-10 {
   margin-bottom: 3rem;
+}
+
+.bi-arrow-90deg-up::before {
+  color: #fff;
 }
 
 .scrollUp {

@@ -37,6 +37,9 @@
     .change-theme {
       margin-right: 0;
     }
+    .section_about_title_container, .section_paragraph {
+      transform: translateX(0px);
+    }
     
     .header_presentation_text {
       color: #fff;
@@ -69,7 +72,7 @@
     #skills p {
       margin: 30px 10% 0 10%;
       font-size: 1.5em;
-      text-align: justify;
+      text-align: left;
   
     }
   

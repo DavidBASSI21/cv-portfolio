@@ -1,13 +1,20 @@
 @media (max-width: 576px) {
+
+  
     .change-theme {
       margin-right: 0;
     }
   
     .navbar {
       height: 90px;
+      width: 100%;
       align-items: center;
       justify-content: space-between;
       align-content: center;
+    }
+
+    .section_about_title_container, .section_paragraph {
+      transform: translateX(0px);
     }
   
     .navbar .toggle_btn {
@@ -103,9 +110,9 @@
       font-size: 1em;
       line-height: 1.8em;
     }
-  
+
     h2.section_title {
-  
+
       font-size: 2.5rem;
     }
   
