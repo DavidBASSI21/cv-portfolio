@@ -2,7 +2,7 @@
   "en" : {
     "about" : "About",
     "skills_resume" : "Skills & Resume",
-    "portfolio" : "Portfolio",
+
     "strong_title" : "Junior Web Developer",
     "section_title" : "Oh, hello ! <span><img class=\"section_title_img\" src=\"./images/main.svg\" alt=\"\"> </span> ",
     "introduction_first_paragraph" : "Welcome! I am David, a junior <strong>Frontend Web Developer specialized in React</strong> and currently learning at O'clock.",
