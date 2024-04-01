@@ -1,3 +1,4 @@
+import translation from "./translation.js";
 import darkMode from "./dark-mode.js";
 import responsiveNavbar from "./responsive-navbar.js";
 import heart from "./heart.js";
@@ -11,6 +12,7 @@ const app = {
     heart.init();
     scrollup.init()
     body.init()
+    translation.init()
   },
 };
 

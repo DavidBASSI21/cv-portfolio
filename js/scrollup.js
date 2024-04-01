@@ -6,7 +6,7 @@ const scrollup = {
     },
 
     handleScrollUp: function() {
-        console.log('coucou')
+        // console.log('coucou')
     }
 }
 

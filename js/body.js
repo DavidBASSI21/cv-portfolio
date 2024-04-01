@@ -7,7 +7,6 @@ init: function() {
 },
 
 handleSectionAboutDisplay: function() {
-    console.log(window.scrollY);
     const aboutTitleSection = document.querySelector('.section_about_title_container')
     const aboutSectionParagraph = document.querySelector('.section_paragraph')
 

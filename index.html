@@ -29,22 +29,23 @@
                     <a class="navbar-home" href="">D&#183;B</a>
                 </div>
                 <ul class="links">
-                    <li class="navbar-li"><a  class="navbar-link"href="#about">A propos</a></li>
-                    <li class="navbar-li"><a class="navbar-link" href="#skills">CV & Compétences</a></li>
-                    <li class="navbar-li"><a class="navbar-link" href="#portfolio">Portfolio</a></li>
+                    <li class="navbar-li"><a  class="navbar-link" href="#about" id="about">A propos</a></li>
+                    <li class="navbar-li"><a class="navbar-link" href="#skills" id="skills_resume">CV & Compétences</a></li>
+                    <li class="navbar-li"><a class="navbar-link" href="#portfolio" id="portfolio">Portfolio</a></li>
                 </ul>
                 <button id="theme-switch" class="nav-link change-theme">
                     <i class="bi-moon"></i>
                 </button>
+               <button id="language_select">English</button>
                 <div class="toggle_btn ">
                     <i class="bi-solid bi-list"></i>
                 </div>
             </div> 
     
             <div class="dropdown_menu">
-                <li class="navbar-li"><a  class="navbar-link"href="#about">A propos</a></li>
-                <li class="navbar-li"><a class="navbar-link" href="#skills">CV & Compétences</a></li>
-                <li class="navbar-li"><a class="navbar-link" href="#portfolio">Portfolio</a></li>
+                <li class="navbar-li"><a  class="navbar-link"href="#about" id="about_dropdown">A propos</a></li>
+                <li class="navbar-li"><a class="navbar-link" href="#skills" id="skills_resume_dropdown">CV & Compétences</a></li>
+                <li class="navbar-li"><a class="navbar-link" href="#portfolio" id="portfolio_dropdown">Portfolio</a></li>
             </div> 
         </nav>
 
@@ -54,7 +55,7 @@
                    David Bassi
                   </h1>
                   <p>
-                   <strong>Développeur Web Junior</strong>  
+                   <strong id="strong_title">Développeur Web Junior</strong>  
                   </p>
                 </div>
               </div>
@@ -65,43 +66,43 @@
     <main class="main_container" id="about">
         <section class="about" id="about">
           <div class="section_about_title_container">
-            <h2  class="section_title">Oh, Bonjour !  
+            <h2  class="section_title" id="section_title">Oh, bonjour ! 
               <span>
+                <img  class="section_title_img" src="./images/main.svg" alt="">
               </span>
-              <img  class="section_title_img" src="./images/main.svg" alt="">
             </h2>
             <img class="section_about_picture"  src="./images/david.png" alt="">
           </div>
             <div class="section_paragraph">
 
-              <p>Bienvenue ! Je m'appelle David, <strong>développeur web Front-End spécialisé React</strong>, actuellement étudiant au sein de <strong>l'école O'clock</strong>.</p>
+              <p id="introduction_first_paragraph">Bienvenue ! Je m'appelle David, <strong>développeur web Front-End spécialisé React</strong>, actuellement étudiant au sein de <strong>l'école O'clock</strong>.</p>
 
-              <p>Disponible à partir du <strong>7 juin 2024</strong>, il me tarde d'intégrer une entreprise où je pourrai mettre en pratique toutes les compétences et connaissances acquises au cours de ma formation. </p>
+              <p id="introduction_second_paragraph">Disponible à partir du <strong>7 juin 2024</strong>, il me tarde d'intégrer une entreprise où je pourrai mettre en pratique toutes les compétences et connaissances acquises au cours de ma formation. </p>
   
-              <p>
+              <p id="introduction_third_paragraph">
               <strong>Organisé, fiable, rigoureux</strong> et doté d'une <strong>forte conscience professionnelle</strong>, j'aime me surpasser pour aller au-delà des attentes des clients avec lesquels je travaille.
               Je sais m'investir pleinement, et être <strong>proactif</strong> dans un projet, afin de mener celui-ci à son terme, tout en veillant à respecter les exigences coûts, qualités et délais.
               </p>
   
-              <p>
+              <p id="introduction_fourth_paragraph">
               Résident actuellement à proximité de Dijon, je suis mobile en <strong>France</strong> ainsi qu'à <strong>Bruxelles</strong>.
               </p>
 
-              <p>
+              <p id="introduction_fifth_paragraph">
                 À bientôt ! 
               </p>
              
             </div>
         </section>
-
+ 
         <section  id="skills"class="">
-            <h2 class="section_title bloc_separator" >CV et Compétences</h2>
-            <p>Dans le domaine du développement web, l'apprentissage est un processus perpétuel. Chaque jour je m'engage à enrichir mon savoir-faire et à perfectionner mes compétences existantes. </p>
+            <h2 class="section_title bloc_separator" id="skills_resume_bloc_title" >CV et Compétences</h2>
+            <p id="section_skills_paragraph">Dans le domaine du développement web, l'apprentissage est un processus perpétuel. Chaque jour je m'engage à enrichir mon savoir-faire et à perfectionner mes compétences existantes. </p>
               <div class="skills_container">
                 <div class="card hard_skills">
                   <div class="card_header_picture"></div>
 
-                <h2>Programmation & développement web</h2>
+                <h2 id="hard_skills_title">Programmation & développement web</h2>
                 <ul class="skills hard_skills_ul">
                     <li class="hard_skills_li skills_li">HTML5&#160;<span>|</span></li>
                     <li class="hard_skills_li skills_li">&#160;CSS3&#160;<span>|</span></li>
@@ -119,28 +120,28 @@
             <div class="card soft_skills">
               <div class="card_header_picture"></div>
 
-                <h2>Compétences personnelles </h2>
+                <h2 id="soft_skills_title">Compétences personnelles </h2>
                 <ul class="skills soft_skills_ul">
-                    <li class="hard_skills_li skills_li">&#160;Fiabilité&#160;<span>|</span></li>
-                    <li class="hard_skills_li skills_li">&#160;Gestion du temps&#160;<span>|</span></li>
-                    <li class="hard_skills_li skills_li">&#160;Gestion du stress&#160;<span>|</span></li>
-                    <li class="hard_skills_li skills_li">&#160;Organisation&#160;<span>|</span></li>
-                    <li class="hard_skills_li skills_li">&#160;Rigueur&#160;<span>|</span></li>
-                    <li class="hard_skills_li skills_li">&#160;Adaptabilité&#160;<span>|</span></li>
-                    <li class="hard_skills_li skills_li">&#160;Curiosité&#160;<span>|</span></li>
-                    <li class="hard_skills_li skills_li">&#160;Résolution de problèmes&#160;<span>|</span></li>
-                    <li class="hard_skills_li skills_li">&#160;Autonomie&#160;<span>|</span></li>
-                    <li class="hard_skills_li skills_li">&#160;Esprit d'équipe&#160;</li>     
+                    <li class="hard_skills_li skills_li" id="soft_skills_one">&#160;Fiabilité&#160;<span>|</span></li>
+                    <li class="hard_skills_li skills_li" id="soft_skills_two">&#160;Gestion du temps&#160;<span>|</span></li>
+                    <li class="hard_skills_li skills_li" id="soft_skills_three">&#160;Gestion du stress&#160;<span>|</span></li>
+                    <li class="hard_skills_li skills_li" id="soft_skills_four">&#160;Organisation&#160;<span>|</span></li>
+                    <li class="hard_skills_li skills_li" id="soft_skills_five">&#160;Rigueur&#160;<span>|</span></li>
+                    <li class="hard_skills_li skills_li" id="soft_skills_six">&#160;Adaptabilité&#160;<span>|</span></li>
+                    <li class="hard_skills_li skills_li" id="soft_skills_seven">&#160;Curiosité&#160;<span>|</span></li>
+                    <li class="hard_skills_li skills_li" id="soft_skills_eight">&#160;Résolution de problèmes&#160;<span>|</span></li>
+                    <li class="hard_skills_li skills_li" id="soft_skills_nine">&#160;Autonomie&#160;<span>|</span></li>
+                    <li class="hard_skills_li skills_li" id="soft_skills_ten">&#160;Esprit d'équipe&#160;</li>     
                 </ul>
             </div>
 
             <div class="card language_skills">
                 <div class="card_header_picture"></div>
 
-                <h2>Langues parlées 🗣️</h2>
+                <h2 id="spoken_languages">Langues parlées</h2>
                 <ul class="skills soft_skills_ul">
-                    <li class="language_skills_li skills_li">Français (langue maternelle)&#160;<span>|</span></li>
-                    <li class="language_skills_li skills_li">&#160;Anglais niveau C1 (lu, écrit, parlé)&#160;</li>
+                    <li class="language_skills_li skills_li" id="french_language">Français (langue maternelle)&#160;<span>|</span></li>
+                    <li class="language_skills_li skills_li" id="english_language">&#160;Anglais niveau C1&#160;</li>
                 </ul>
             </div>
 
@@ -148,7 +149,7 @@
               <div class="card_header_picture"></div>
 
               <div class="downloadResume">
-                <h2>Télécharger mon CV</h2>
+                <h2 id="CV_title">Télécharger mon CV</h2>
                 <a href= "public/assets/cv-david-bassi.pdf" download > <i class="bi bi-file-earmark-arrow-down"></i> </a>
               </div>
             </div>  
@@ -157,7 +158,7 @@
         <section  id="portfolio" class="">
             <h2 class="section_title bloc_separator" >Portfolio</h2>
             <div class="portfolioContainer">
-                <h3>
+                <h3 id="portfolio_section_title">
                     En cours de construction. Encore un peu de patience... 
                 </h3>
             </div>
@@ -209,7 +210,7 @@
         </section>
       
     </main>
-        
+    
         <div class="scrollUp">
             <a href="#"> <i class="bi bi-arrow-90deg-up"></i></a>   
         </div>
@@ -238,7 +239,7 @@
             </li>
           </ul>
         </div>
-          <p class="footer_p"> David Bassi - Développeur Web Front-End - 2024 - Fait avec <span>&#9829</span></p>
+          <p class="footer_p" id="footer_paragraph"> David Bassi - Développeur Web Front-End - 2024 - Fait avec <span>&#9829</span></p>
     </footer>
 
       <script type="module" src="./js/index.js"></script>

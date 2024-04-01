@@ -115,6 +115,11 @@ body {
   border-bottom: 1px solid var(--main-basic-blue-color);
 }
 
+.theme-dark #language_select {
+  background-color: var(--main-basic-blue-color);
+  border: 1px solid blue;
+}
+
 .theme-dark .header_presentation_text {
   background-color: #1f1f1f69;
 }
@@ -197,7 +202,6 @@ nav {
 
 .navbar-link:hover {
   transition: 0.5s ease;
-  font-size: 1.5em;
   border-bottom: 1px solid var(--main-basic-salmon-color);
 }
 
@@ -212,6 +216,27 @@ nav {
   color: var(--main-basic-salmon-color);
   display: none;
 }
+
+#language_select {
+  border-radius: 20px;
+  margin-right: 30px;
+  border: 1px solid pink;
+  background-color: var(--main-basic-salmon-color);
+  padding: 5px 10px;
+  color: #fff;
+  transition: 0.5s;
+  font-weight: 400;
+
+}
+
+#language_select:hover {
+  scale: 1.05;
+}
+
+#language_select:active {
+  scale: 0.9;
+}
+
 
 /* DROPDOWN */
 
@@ -462,6 +487,7 @@ section#about {
   width: 100%;
   justify-content: center;
   height: 25vh;
+  transition: .5s;;
 }
 
 .socialNetworks_ul {
@@ -470,6 +496,7 @@ section#about {
   list-style-type: none;
   align-items: center;
   gap: 5em;
+  transition: 0.5s;
 }
 
 .socialNetworks_icon:hover {
@@ -662,15 +689,18 @@ section#about {
 .socialNetworks_ul li a {
   color: rgb(241, 241, 241);
   transition: 0.5s;
+
 }
 .socialNetworks_ul li a:visited {
   color: rgb(241, 241, 241);
+  transition: 0.5s;
+
 }
 
 .socialNetworks_ul li:hover {
   scale: 1.2;
   animation: shake 0.4s linear infinite;
-  transition: 0.3s;
+  transition: 0.5s;
 }
 
 footer {
